@@ -9,3 +9,6 @@ cd "" ingresa a esa carpeta
 "git push"
 
 """
+
+"python manage.py runserver"
+"CTRL + C "
