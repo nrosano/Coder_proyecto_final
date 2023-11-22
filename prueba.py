@@ -8,7 +8,8 @@ cd "" ingresa a esa carpeta
 "Git add "
 "git push"
 
-"""
+
+""" 
 
 "python manage.py runserver"
 "CTRL + C "
