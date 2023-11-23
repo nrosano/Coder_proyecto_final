@@ -7,9 +7,9 @@ def inicio_view(request):
 from django.template import Template, Context
 from django.http import HttpResponse
 
-def cursos_view(request):
-  #return HttpResponse("Estos son mis cursos")
-  return render(request, "AppCoder/padre.html")
+#def cursos_view(request):
+#  #return HttpResponse("Estos son mis cursos")
+#  return render(request, "AppCoder/padre.html")
 
 def cursos_view(xx):
     nombre = "Mariano Manuel"
