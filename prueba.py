@@ -13,3 +13,5 @@ cd "" ingresa a esa carpeta
 
 "python manage.py runserver"
 "CTRL + C "
+
+#QUEDO EN EL MINUTO 50
