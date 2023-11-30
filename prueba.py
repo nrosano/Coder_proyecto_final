@@ -13,4 +13,7 @@ cd "" ingresa a esa carpeta
 
 "python manage.py runserver"
 "CTRL + C "
+#python manage.py createsuperuser
+#admin
+#123
 #1:30
