@@ -7,26 +7,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>La caja de pandora</title>
+        <title>AppCoder</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="{% static 'core/assets/favicon.ico' %}" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{% static 'core/css/styles.css' %}" rel="stylesheet" />
     </head>
     <body>
+
         {% include 'core/navbar.html' %}
+
         <!-- Page Content-->
         <div class="container px-4 px-lg-5">
+            
             <h1>
-                {% block conteido_titulo %} 
-                {% endblock conteido_titulo %}
+                {% block contenido_titulo %}
+                {% endblock contenido_titulo %}
             </h1>
 
             {% block contenido %}
- 
             {% endblock contenido %}
-
-
         </div>
 
         {% include 'core/footer.html' %}

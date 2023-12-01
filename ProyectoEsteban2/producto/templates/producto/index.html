@@ -1,11 +1,12 @@
 {% extends 'core/base.html' %}
 
-{% block conteido_titulo %} 
-  PRODUCTO
-{% endblock conteido_titulo %}
+{% block contenido_titulo %}
+    PRODUCTO
+{% endblock contenido_titulo %}
+
 
 {% block contenido %}
-  <ul>
-    <li><a href="{% url 'core:index' %}"> Volver al inicio</a></li>
-  </ul>   
+
+    <a href="{% url 'core:index' %}">Volver al inicio</a>
+
 {% endblock contenido %}
